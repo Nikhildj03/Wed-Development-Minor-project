@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+    font: sans-serif;
+}
+
+/* Removing default Css style */
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+} 
+
+/* Designing the Header */
+
+header{
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 15vh;
+    margin-left: 10%;
+}
+
+header img{
+ scale: 0.8;
+ margin-right: 10%;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15% ;
+}
+
+header ul{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+header ul li a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+
+.header-right span{
+    color: #28bc7c;
+}
+
+/* Designing the Hero - Section */
+
+.hero{
+    display: flex;
+}
+
+/* Designing the Hero section left */
+
+.hero-section-left{
+    max-width: 50%;
+    margin-left: 10%;
+    margin-top: 30px;
+} 
+
+.hero-section-left h1{
+   font-size: 60px;
+   line-height: 150%;
+}
+ 
+.hero-section-left p{
+    color: #838382;
+    margin-top: 10px;
+}
+
+.button{
+    padding: 20px 90px;
+    background: #28bc7c;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #f0f4f5;
+    font-weight: 800;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.bottomAngle{
+    position: absolute;
+   margin-left: 32%;
+   bottom: 20%;
+}
+
+.mouse{
+    margin-left: 45%;
+    position: absolute;
+}
+
+.stethoscope {
+    position: absolute;
+   margin-left: 20%;
+    bottom: 0;
+    height: 90%;
+  }
+
+/* Hero right section */
+
+
+.hero-section-right{
+background-color: transparent;
+}
+
+.greenBox,
+.yellowBox {
+  position: absolute;
+  right: 0;
+}
+
+.greenBox {
+  width: 35%;
+  bottom: 30px;
+}
+
+.yellowBox {
+  width: 30%;
+  bottom: 50px;
+}
+
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+}

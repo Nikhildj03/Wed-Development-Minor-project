@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+    font: sans-serif;
+}
+
+/* Removing default Css style */
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+} 
+
+/* Designing the Header */
+
+header{
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 15vh;
+    margin-left: 10%;
+}
+
+header img{
+ scale: 0.8;
+ margin-right: 10%;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15% ;
+}
+
+header ul{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+header ul li a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+
+.header-right span{
+    color: #28bc7c;
+}  
+
+/*  Designing the Body section  */
+
+.heading{
+    width: 50%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     padding: 20px;
+     margin-top: 10%;
+     margin-left: 20%;
+}
+
+.stethoscope {
+    position: absolute;
+   margin-left: 20%;
+    bottom: 0;
+    height: 90%;
+  }
+  
+.heading h1{
+    font-size: 30px;
+    color: #28bc7c;
+    font-weight: 900;
+}
+.heading p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.product{
+    display: flex;
+    height: 20vh;
+    margin-left: 20%;
+    width: 50%;
+}
+
+.product-description{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+   width: 40%;
+   margin: 3%;
+   border-radius: 6px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ background-color: transparent;
+}
+ 
+.product-description span{
+    color: #28bc7c;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.product-description p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 28px;
+    font-size: 20px;
+}
